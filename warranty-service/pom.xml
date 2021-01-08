@@ -12,6 +12,8 @@
     <groupId>com.yuhan.service.warranty-service</groupId>
     <artifactId>warranty-service</artifactId>
 
+    <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
             <groupId>javax.validation</groupId>
