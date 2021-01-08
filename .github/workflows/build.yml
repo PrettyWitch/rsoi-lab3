@@ -31,7 +31,7 @@ jobs:
           heroku_api_key: 177b60ae-4ee5-4cf3-92e7-556aecf0460a
           heroku_app_name: lab2-warranty-service
           heroku_email: yuhan.dong@yandex.ru
-          appdir: warranty-service
+#          appdir: warranty-service
 
       - name: Deploy Warehouse Service
         uses: akhileshns/heroku-deploy@v3.4.6
@@ -39,7 +39,7 @@ jobs:
           heroku_api_key: 177b60ae-4ee5-4cf3-92e7-556aecf0460a
           heroku_app_name: lab2-warehouse-service
           heroku_email: yuhan.dong@yandex.ru
-          appdir: warehouse-service
+#          appdir: warehouse-service
 
       - name: Deploy Order Service
         uses: akhileshns/heroku-deploy@v3.4.6
@@ -47,7 +47,7 @@ jobs:
           heroku_api_key: 177b60ae-4ee5-4cf3-92e7-556aecf0460a
           heroku_app_name: lab2-order-service
           heroku_email: yuhan.dong@yandex.ru
-          appdir: order-service
+#          appdir: order-service
 
 #      - name: Run API Tests
 #        id: run-newman
