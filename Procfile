@@ -1,1 +1,1 @@
-web java -Dserver.port=$PORT $JAVA_OPTS -jar target/lab2_2-0.0.1-SNAPSHOT.pom
+web java -Dserver.port=$PORT $JAVA_OPTS -pom target/lab2_2-0.0.1-SNAPSHOT.pom
